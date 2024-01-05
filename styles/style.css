@@ -1,0 +1,61 @@
+/* common style css */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+  color: #FD6E0A;
+}
+.btn-primary{
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* nav style css */
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px 200px;
+}
+.nav-title{
+  color: #181818;
+
+font-size: 45px;
+font-weight: 800;
+
+}
+
+
+
+nav > ul{
+  display: flex;
+  text-align: center;
+  
+}
+nav li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #474747;
+  
+}
+/* header style */
+.header{
+  background: #FFF8F3;
+}
+
+.banner{
+  padding: 30px 30px 30px 150px;
+  display:flex;
+  align-items: center;
+}
+.banner .rofile-pic{
+  width: 500px;
+}
