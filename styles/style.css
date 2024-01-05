@@ -14,6 +14,19 @@ body{
   font-weight: 700;
   padding: 15px 35px;
 }
+.section-title{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+.section-description{
+ 
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+
+}
 /* nav style css */
 nav{
   display: flex;
@@ -49,13 +62,48 @@ nav li a{
 /* header style */
 .header{
   background: #FFF8F3;
+  background-image: url("../assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display:flex;
   align-items: center;
+  justify-content: space-between;
+}
+.banner-content{
+  max-width: 500px;
+}
+.banner-greeting{
+  font-size: 45px;
+  color: #474747;
+  
+
+  margin-bottom: 0px;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.banner-description{
+  color: #757575;
+  font-style: normal;
+  
+  
 }
 .banner .rofile-pic{
   width: 500px;
+}
+/* about style */
+
+.about{
+  padding: 130px;
+  text-align: center;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 130px 0;
 }
